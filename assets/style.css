@@ -1,0 +1,76 @@
+body{
+    /* background-color: #F0CED9; */
+    /* font-family: 'mother_natureregular', sans-serif; */
+}
+#navbar{
+    box-shadow: 0 2px 4px rgb(0 0 0 / 25%);
+    background: rgba(15, 21, 15, 0.5);
+}
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+top: 10rem;
+z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+height: 42rem;
+}
+.carousel-item > img {
+position: absolute;
+top: 0;
+left: 0;
+min-width: 100%;
+height: 32rem;
+}
+#about, #experience, #projects, #contact{
+    padding-top: 60px;
+}
+.about_p{
+    font-size: 24px;
+}
+.featurette-divider {
+    margin: 2rem 0; /* Space out the Bootstrap <hr> more */
+} 
+.experience{
+    margin-top: 10px;
+}
+.experience .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.experience h2 {
+    font-weight: 400;
+}
+.project_snap{
+    width: 100%;
+    height: 250px;
+}
+.contact-bg{
+    position: relative;
+    background:url('../assets/img/contact-bg.jpeg') no-repeat center center;
+    background-color: #6c757d;
+    background-size: cover;
+    background-attachment: scroll;
+}
+#contact-form{
+    margin-top: 50px;
+}
+.footer{
+    /* height: 100px; */
+    padding: 50px 0;
+    /* padding-bottom: 100px; */
+}  
+.footer-icon{
+    font-size: 40px;
+    color: #000;
+}
+.footer-icon:hover{
+    font-size: 40px;
+    color: #17a2b8;
+}
+  

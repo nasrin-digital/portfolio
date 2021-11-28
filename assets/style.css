@@ -18,7 +18,7 @@ z-index: 10;
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-height: 42rem;
+height: 35rem;
 }
 .carousel-item > img {
 position: absolute;
@@ -53,7 +53,7 @@ height: 32rem;
 .contact-bg{
     position: relative;
     background:url('../assets/img/contact-bg.jpeg') no-repeat center center;
-    background-color: #6c757d;
+    /* background-color: #6c757d; */
     background-size: cover;
     background-attachment: scroll;
 }

@@ -4,18 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
-		<link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-    />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
 		<!-- Custom style -->
-    <link href="assets/style.css" rel="stylesheet">
+    	<link href="assets/style.css" rel="stylesheet">
 		<script src="assets/portfolio.js"></script>
-		<link rel="icon" 
-      type="image/jpg" 
-      href="assets/img/IMG_3324.jpg">
+		<link rel="icon" type="image/jpg" href="assets/img/IMG_3324.jpg"> <!-- favicon -->
 	</head>
 	<body>
 		<header>
@@ -44,6 +39,59 @@
 				</div>
 			</nav>
 		</header>
-		
+		<main>
+			<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<svg class="bd-placeholder-img bg-primary" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#febd01"/></svg> 
+						<div class="container">
+							<div class="carousel-caption text-start text-bottom text-dark">
+								<h2>Hey,</h2>
+
+								<h1> I'm Nasrin Mostajeran. I am a software developer based in Oregon</h1>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="assets/img/about-bg.jpeg" alt="About background image" class="w-100 h-100" >
+					</div>
+					<div class="carousel-item">
+						<img src="assets/img/myMac.jpeg" alt="My mac image" class="w-100 h-100" >
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+			<div class="container h-100 d-flex" id="about">
+				<div class="row align-items-center h-100">
+					<div class="col-md-7">
+						<p class="about_p align-items-center justify-content-center align-self-center">Self-motivated software engineer with 5+ years of experience.
+							Work with agile team to manage large, complex design projects
+							for corporate clients. Develop project concepts and maintain
+							optimal workflow. Experience in troubleshooting, analyzing and
+							make a clean algorithm to achieve high efficiency. Skilled in all 5
+							stages of development process including: information gathering,
+							planning, design, development, testing and maintenance</p>
+					</div>
+					<div class="col-md-5">
+						<img src="assets/img/nasrin_pic_1.jpg" class="d-block w-100 h-100" alt="Nasrin's picture" />
+					</div>
+				</div>
+			</div>
+			
+
+						
+		</main>
 	</body>
 </html>
